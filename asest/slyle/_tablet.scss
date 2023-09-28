@@ -1,0 +1,49 @@
+@media (max-width: 1024px) {
+    .center { 
+        padding-left: calc(50% - 393px);
+        padding-right: calc(50% - 393px);
+    }
+    
+    .interior__item {
+        height: 268px;
+    }
+
+    .sale__box {
+        column-gap: 29px;
+        row-gap: 39px;
+    }
+
+    .product__box {
+        column-gap: 29px;
+        row-gap: 39px;
+    }
+
+    .footer__logo {
+        display: none;
+    }
+
+ 
+
+    .buy {
+        grid-template-columns: repeat(8, 1fr);
+        row-gap: 64px;
+    }
+}
+
+
+
+
+@media (min-width: 768px) and (max-width: 833px) {
+    .center {
+        padding-left: 24px;
+        padding-right: 24px;
+    }
+
+    .sale {
+        width: 345px;
+    }
+
+    .product {
+        width: 345px;
+    }
+}

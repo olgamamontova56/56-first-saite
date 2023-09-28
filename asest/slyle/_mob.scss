@@ -1,0 +1,185 @@
+@media (max-width: 767px) {
+    .center {
+        padding-left: 16px;
+        padding-right: 16px;
+    }
+
+    .header {
+        padding-top: 32px;
+
+        &__box {
+            border-bottom: none;
+        }
+
+        &__logo-img {
+            width: 99px;
+        }
+
+        &__input {
+            display: none;
+        }
+    }
+
+    .menu {
+        &__link {
+            display: none;
+        }
+
+        &__mob {
+            display: flex;
+            align-items: center;
+            gap: 32px;
+        }
+    }
+
+    .top {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+
+        &__title {
+            font-size: 48px;
+            text-align: center;
+            font-weight: 600;
+            line-height: 59px;
+        }
+
+        &__text {
+            text-align: center;
+            font-size: 16px;
+            font-weight: 400;
+            line-height: 32px;
+        }
+
+        &__link {
+            font-size: 14px;
+        }
+    }
+
+    .interior {
+        &__title {
+            font-size: 24px;
+        }
+
+        &__box {
+            grid-template-columns: repeat(4, 1fr);
+            gap: 16px;
+        }
+
+        &__item {
+            grid-column: 1 / -1;
+            height: 375px;
+            font-size: 28px;
+            line-height: 34px;
+
+            &-big {
+                height: 244px;
+            }
+
+
+        }
+    }
+
+    .sale {
+        &__box {
+            gap: 32px;
+        }
+
+        &__title {
+            font-size: 24px;
+            margin-top: 32px;
+        }
+    }
+
+    .product {
+
+        gap: 32px;
+
+
+        &__title {
+            font-size: 24px;
+        }
+
+        &__name {
+            font-size: 18px;
+            padding-top: 9px;
+            padding-bottom: 4px;
+        }
+
+        &__price {
+            padding-top: 8px;
+            font-size: 18px;
+
+        }
+    }
+
+    .nav {
+        display: flex;
+        flex-wrap: wrap;
+        gap: 16px;
+        margin-top: 32px;
+
+        &__link {
+            font-size: 14px;
+        }
+    }
+
+    .buy {
+        grid-template-columns: repeat(4, 1fr);
+
+        &__box {
+            grid-column: span 4;
+            width: 343px;
+        }
+
+        &__crumbs {
+            display: none;
+        }
+
+        &__item {
+            display: flex;
+            justify-content: flex-start;
+            column-gap: 19px;
+        }
+
+        &__img {
+            display: none;
+        }
+
+        &__text {
+            font-size: 12px;
+            width: 253px;
+        }
+
+        &__botton {
+            display: flex;
+            gap: 14px;
+
+            &-item {
+                font-size: 12px;
+                padding: 11px 27px 11px 25px;
+            }
+        }
+
+        &__form {
+            width: 343px;
+        }
+    }
+
+    .footer {
+        height: 364px;
+        display: flex;
+        flex-wrap: wrap;
+
+        &__box {
+            gap: 34px;
+            justify-content: center;
+
+        }
+
+
+    }
+
+
+
+}
